@@ -43,7 +43,15 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
       meta : {title : "About - Triparna Sarkar"}
 
-    }
+    },
+    {
+      path : '/:catchAll(.*)',
+      name: 'PageNotFound',
+      component:() => import('../components/PageNotFound.vue'),
+      meta : {title : " 404 Page Not Found | Sagar Nandy | Welcome to NANDYSAGAR.IN"}
+
+
+  },
   ]
 })
 

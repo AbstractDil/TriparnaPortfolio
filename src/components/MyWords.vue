@@ -7,7 +7,7 @@
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col" v-for="work in works" :key="work.id">
         <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
-            <img v-bind:src="work.workUrl" class="img-fluid" alt="">
+            <img v-bind:src="work.workUrl" class="img-fluid">
         </div>
       </div>
 
@@ -22,9 +22,9 @@
         data(){
               return{
                 works : [
-                  { id : 1,  workUrl: '../../public/twork/twork-1.jpeg'},
-                  {id :2 ,  workUrl: '../../public/twork/twork-2.jpg'},
-                  {id : 3 ,  workUrl: '../../public/twork/twork-3.jpg'},
+                  { id : 1,  workUrl: '/src/assets/img/twork-1.jpeg'},
+                  {id :2 ,  workUrl: '/src/assets/img/twork-2.jpg'},
+                  {id : 3 ,  workUrl: '/src/assets/img/twork-3.jpg'},
                  
 
                 ],
