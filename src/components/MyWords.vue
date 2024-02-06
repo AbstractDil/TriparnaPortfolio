@@ -5,9 +5,21 @@
     </h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <div class="col" v-for="work in works" :key="work.id">
+      <div class="col">
         <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
-            <img v-bind:src="work.workUrl" class="img-fluid">
+            <img src="../assets/img/twork-2.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="col" >
+        <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <img src="../assets/img/twork-1.jpeg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+            <img src="../assets/img/twork-3.jpg" class="img-fluid">
         </div>
       </div>
 
