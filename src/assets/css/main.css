@@ -67,7 +67,7 @@ html {
 
 @media (max-width: 768px){
   .jumbtron {
-     height: 25vh;
+     height: 20vh;
   }
   .jumbtron-body{
     padding: 2rem !important;
